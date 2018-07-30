@@ -25,11 +25,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['lineage-sdk.jar'])
-    compile 'com.google.code.gson:gson:2.7'
-    compile 'com.squareup.retrofit2:retrofit:2.0.1'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.1'
-    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation fileTree(dir: 'libs', include: ['lineage-sdk.jar'])
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
 }
 
 ext {
